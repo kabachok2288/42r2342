@@ -9,8 +9,8 @@ configure do
       :address => 'smtp.sendgrid.net',
       :port => '587',
       :domain => 'heroku.com',
-      :user_name => ENV['apikey'],
-      :password => ENV['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'],
+      :user_name => ENV['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'],
+      :password => ENV['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'],
       :authentication => :plain,
       :enable_starttls_auto => true
     }
